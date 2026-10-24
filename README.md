@@ -1,4 +1,5 @@
-RP_AD2026Q4
+##RP_AD2026Q4
+
 Repositorio de referencia: un notebook ejecutable por clase que deja un resumen .txt en reportes/.
 
 Estructura
@@ -104,8 +105,8 @@ PYTHONPATH=src python -c '
 from rp_utils import HFDatasetLoader
 
 df = HFDatasetLoader(
-    "Fast_Food_Restaurants",
-    filename="datos/fast_food.csv",
+    "telecom-churn-dataset",
+    filename="datos/telco_churn.csv",
 ).load()
 
 print(df.head())
