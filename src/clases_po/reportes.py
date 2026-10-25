@@ -1,5 +1,3 @@
-"""Generación de reportes de DataFrames."""
-"""Generación de reportes de DataFrames."""
 from __future__ import annotations
 
 from pathlib import Path
